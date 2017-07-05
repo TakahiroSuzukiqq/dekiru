@@ -1,5 +1,5 @@
 //generate height, weight, BMI data
-const DATA_SIZE = 10
+const DATA_SIZE = 5000
 const data = []
 
 //generate the data
@@ -19,7 +19,8 @@ for (var i = 0; i < DATA_SIZE; i++) {
     'itemC': itemC, 
     'pageA': pageA, 
     'pageB': pageB, 
-    'pageC': pageC
+    'pageC': pageC,
+    'totalPp': totalPp
    };
   data.push(f);
 }
@@ -27,8 +28,8 @@ for (var i = 0; i < DATA_SIZE; i++) {
 //store the data into the file
 data_json = JSON.stringify(data);
 const fs = require('fs');
-fs.writeFileSync("koubai.json", data_json);
-console.log("ok, saved");
+fs.writeFileSync("user_data.json", data_json);
+console.log("Success!! JSON dummy data created");
 
 
 //generate arbitrary scope of random number
