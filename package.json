@@ -1,0 +1,15 @@
+{
+  "name": "dekiru",
+  "version": "1.0.0",
+  "description": "data about people who purchase products",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "taka",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "synaptic": "^1.0.12"
+  }
+}
