@@ -4,23 +4,47 @@ const data = []
 
 //generate the data
 for (var i = 0; i < DATA_SIZE; i++) {
-  let age = rand(10, 40);
-  let itemA = rand(1, 10);
-  let itemB = rand(1, 5);
-  let itemC = rand(10, 20);
-  let pageA = rand(10, 20);
-  let pageB = rand(5, 10);
-  let pageC = rand(1, 10);
-  let totalPp = rand(1000, 3000);
+  let bitter = rand(1, 100);
+  let bittersweet = rand(1, 100);
+  let mild = rand(1, 100);
+  let smoky = rand(1, 100);
+  let rich = rand(1, 100);
+  let sweet = rand(1, 100);
+  let sour = rand(1, 100);
+  let salty = rand(1, 100);
+  let spicy = rand(1, 100);
+  let juicy = rand(1, 100);
+  let fruity = rand(1, 100);
+  let oily = rand(1, 100);
+  let crunchy = rand(1, 100);
+  let dry = rand(1, 100);
+  let wet = rand(1, 100);
+  let creamy = rand(1, 100);
+  let plain = rand(1, 100);
+  let soft = rand(1, 100);
+  let hard = rand(1, 100);
+  let taste = rand(0, 1)
   let f = {
-    'age': age,
-    'itemA': itemA, 
-    'itemB': itemB,
-    'itemC': itemC, 
-    'pageA': pageA, 
-    'pageB': pageB, 
-    'pageC': pageC,
-    'totalPp': totalPp
+    'bitter': bitter,
+    'bittersweet': bittersweet,
+    'mild': mild,
+    'smoky': smoky,
+    'rich': rich,
+    'sweet': sweet, 
+    'sour': sour,
+    'salty': salty, 
+    'spicy': spicy, 
+    'juicy': juicy,
+    'fruity': fruity,
+    'oily': oily,
+    'crunchy': crunchy,
+    'dry': dry,
+    'wet': wet,
+    'creamy': creamy,
+    'plain': plain,
+    'soft': soft,
+    'hard': hard,
+    'taste': taste
    };
   data.push(f);
 }
